@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(0, 255, 0);
+}
+.logo img{
+    width: 60px;
+
+
+}
+.links a{
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+    
+}
+.links{
+    display: flex;
+    gap: 30px;
+}
+.links button{
+    background-color: rgb(0, 255, 0);
+    border: none;
+    width: 60px;
+    height: 25px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+.links button:hover{
+    transform: rotate(360deg);
+}
+.icons h2 {
+    cursor: pointer;
+    
+}
+.icons {
+    display: flex;
+    gap: 10px;
+}
+.links a:hover{
+    color: white;
+}
+header{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/05575b50e6ed9a1d9a5615c544f6bc63/holiday-gift-guide-rgb-homepage-large-2x.webp") 
+    no-repeat center center/cover ;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+
+}
+header h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+header h3 {
+    font-size: 30px;
+    font-weight: 200;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+}
+header a:hover{
+    border-bottom: 2px solid white;
+}
+
+.header1{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/d24672112ff237ece31fd792eb39dba6/razer-enki-pro-koenigsegg-williams-esports-homepage-large.jpg") no-repeat center/cover;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    color: white;
+    padding: 100px;
+ 
+}
+.header1 h1{
+    font-size: 60px;
+    font-weight: 900;
+
+}
+.header1 h3{
+    font-size: 30px;
+    font-weight: 100;
+}
+.header1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+}
+.header1 a:hover{
+    border-bottom: 2px solid white;
+}
+.kola{
+    border: 3px solid black ;
+    color: black;
+    background-color: #fa9a01;
+    width: 120px;
+    cursor: pointer;
+    text-align: start;
+    margin-left: 580px;
+      
+}
+.header2{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/d24672112ff237ece31fd792eb39dba6/razer-deathstalker-pro-tkl-homepage-large.jpg") no-repeat center/cover;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    color: white;
+    padding: 100px;
+    border-bottom: 9px solid #393838;
+}
+.header2 h1{
+    font-size: 60px;
+    font-weight: 900;
+
+}
+.header2 h3{
+    font-size: 30px;
+    font-weight: 100;
+}
+.header2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+}
+.header2 a:hover{
+    border-bottom: 2px solid white;
+}
+
+
+
+
+
+.t-left{
+    background: url('https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/razer-blade14-quartz-2022-950x580-desktop.jpg') no-repeat center center/cover;
+    width: 50%;
+    height: 80vh;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   border-right: 5px solid #393838;
+    
+}
+.t-left a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+}
+.t-left a:hover{
+    border-bottom: 2px solid white;
+}
+.t-right{
+    background: url('https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/razer-blackshark-v2-x-usb-950x580-desktop.jpg')no-repeat center center/cover;
+    width: 50%;
+    height: 80vh;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-left: 7px solid #393838;
+}
+.t-right a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.t-right a:hover{
+    border-bottom: 2px solid white;
+}
+.twise{
+    display: flex;
+}
+.t-left h1{
+    padding-top: 30px;
+    font-size: 45px;
+}
+.t-right h1{
+    padding-top: 30px;
+    font-size: 45px;
+}
+.t-left p{
+    font-size: 20px;
+}
+.t-right p{
+    font-size: 20px;
+}
+
+
+
+
+.t-left1{
+    background: url('https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/razer-strider-chroma-b-950x580-desktop.jpg') no-repeat center center/cover;
+    width: 50%;
+    height: 80vh;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   border-right: 5px solid #393838;
+   border-top: 9px solid #393838;
+   border-bottom:  9px solid #393838;
+    
+}
+.t-left1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+}
+.t-left1 a:hover{
+    border-bottom: 2px solid white;
+}
+.t-right1{
+    background: url('https://assets2.razerzone.com/images/pnx.assets/31a38664ab12f98afc875824ad783084/new-razer-blade-15-2022-b-950x580-desktop.jpg')no-repeat center center/cover;
+    width: 50%;
+    height: 80vh;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-left: 7px solid #393838;
+    border-top: 9px solid #393838;
+    border-bottom:  9px solid #393838;
+}
+.t-right1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.t-right1 a:hover{
+    border-bottom: 2px solid white;
+}
+.twise1{
+    display: flex;
+}
+.t-left1 h1{
+    padding-top: 30px;
+    font-size: 45px;
+}
+.t-right1 h1{
+    padding-top: 30px;
+    font-size: 45px;
+}
+.t-left1 p{
+    font-size: 20px;
+}
+.t-right1 p{
+    font-size: 20px;
+}
+
+footer{
+    width: 100%;
+    height: max-content;
+    background-color: #111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0;
+}
+.items p{
+    padding: 7px;
+}
